@@ -11,61 +11,12 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  /* Center the frame */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f0f0f0;
-}
-
-/* New styles for the frame */
-.frame-container {
-  border: 10px solid #666;
-  padding: 20px;
-  display: inline-block;
-  background-color: #ccc;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 model-viewer {
-  /* Adjusted to fit within the new frame */
-  width: 80vw;
-  max-width: 800px;
-  height: 60vh;
-  max-height: 600px;
+  width: 100%;
+  height: 90%;
   background-color: #ffffff;
-  position: relative; /* Needed for child absolute positioning */
-}
-
-/* New styles for the controls container */
-.controls {
-  text-align: center;
-  margin-top: 15px;
-}
-
-/* New styles for the control buttons */
-.controls button {
-  font-family: Roboto Regular, Helvetica Neue, sans-serif;
-  font-size: 14px;
-  padding: 8px 24px;
-  margin: 0 10px;
-  border-radius: 18px;
-  border: 1px solid #DADCE0;
-  background-color: #fff;
-  cursor: pointer;
-}
-
-.controls button:active {
-  background-color: #E8EAED;
-}
-
-.controls button:focus {
-  outline: none;
-}
-
-.controls button:focus-visible {
-  outline: 1px solid #4285f4;
 }
 
 
